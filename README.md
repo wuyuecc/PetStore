@@ -14,7 +14,7 @@ PetStore是Sun公司用于演示JavaEE的，界面用Java Web实现。这里简�
 
 ## 数据库设计
 
-四张表：account, product, order, order_detail
+四张表：account, product, orders, ordersdetail
 
 account
 
@@ -35,7 +35,7 @@ product
 | image | varchar(20) | — | — |
 | price | decimal(10,2) | — | — |
 
-order
+orders
 
 | 字段 | 类型 | 主键 | 外键 |
 | ------ | ------ | ------ | ------ |
@@ -45,7 +45,7 @@ order
 | status | int | — | — |
 | amount | decimal(10,2) | — | — |
 
-order_detail
+ordersdetail
 
 | 字段 | 类型 | 主键 | 外键 |
 | ------ | ------ | ------ | ------ |
